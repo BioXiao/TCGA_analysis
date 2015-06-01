@@ -1,0 +1,65 @@
+Validating run selection against Broad Institute website ...
+You've asked to download archives for the following tasks
+
+     segmented_scna_minus_germline_cnv_hg19__seg.Level_3
+
+run against the disease cohorts
+
+      PANCAN12
+
+from the stddata__2014_02_15 Firehose run. 
+Attempting to retrieve data for Broad GDAC run stddata__2014_02_15 ...
+--2015-05-29 09:54:13--  http://gdac.broadinstitute.org/runs/stddata__2014_02_15/data/PANCAN12/
+     0K                                                      100% 83,5M=0s
+2015-05-29 09:54:13 ERROR 404: Not Found.
+--2015-05-29 09:54:13--  http://gdac.broadinstitute.org/runs/stddata__2014_02_15/data/PANCAN12/?C=N;O=D
+     0K                                                      100% 94,4M=0s
+--2015-05-29 09:54:13--  http://gdac.broadinstitute.org/runs/stddata__2014_02_15/data/PANCAN12/?C=M;O=A
+     0K                                                      100%  157M=0s
+--2015-05-29 09:54:13--  http://gdac.broadinstitute.org/runs/stddata__2014_02_15/data/PANCAN12/?C=S;O=A
+     0K                                                      100% 66,3M=0s
+--2015-05-29 09:54:13--  http://gdac.broadinstitute.org/runs/stddata__2014_02_15/data/PANCAN12/?C=D;O=A
+     0K                                                      100%  157M=0s
+--2015-05-29 09:54:14--  http://gdac.broadinstitute.org/runs/stddata__2014_02_15/data/PANCAN12/20140215/
+     0K ..                                                     216K=0,7s
+--2015-05-29 09:54:17--  http://gdac.broadinstitute.org/runs/stddata__2014_02_15/data/PANCAN12/?C=N;O=A
+     0K                                                      100% 81,3M=0s
+--2015-05-29 09:54:17--  http://gdac.broadinstitute.org/runs/stddata__2014_02_15/data/PANCAN12/?C=M;O=D
+     0K                                                      100% 99,5M=0s
+--2015-05-29 09:54:17--  http://gdac.broadinstitute.org/runs/stddata__2014_02_15/data/PANCAN12/?C=S;O=D
+     0K                                                      100% 93,9M=0s
+--2015-05-29 09:54:17--  http://gdac.broadinstitute.org/runs/stddata__2014_02_15/data/PANCAN12/?C=D;O=D
+     0K                                                      100% 99,5M=0s
+--2015-05-29 09:54:18--  http://gdac.broadinstitute.org/runs/stddata__2014_02_15/data/PANCAN12/20140215/?C=N;O=D
+     0K ..                                                     647K=0,2s
+--2015-05-29 09:54:18--  http://gdac.broadinstitute.org/runs/stddata__2014_02_15/data/PANCAN12/20140215/?C=M;O=A
+     0K ..                                                     640K=0,2s
+--2015-05-29 09:54:18--  http://gdac.broadinstitute.org/runs/stddata__2014_02_15/data/PANCAN12/20140215/?C=S;O=A
+     0K ..                                                     641K=0,2s
+--2015-05-29 09:54:19--  http://gdac.broadinstitute.org/runs/stddata__2014_02_15/data/PANCAN12/20140215/?C=D;O=A
+     0K ..                                                     640K=0,2s
+--2015-05-29 09:54:19--  http://gdac.broadinstitute.org/runs/stddata__2014_02_15/data/PANCAN12/20140215/gdac.broadinstitute.org_PANCAN12-FFPE.Merge_snp__genome_wide_snp_6__broad_mit_edu__Level_3__segmented_scna_minus_germline_cnv_hg19__seg.Level_3.2014021500.0.0.tar.gz
+Saving to: `stddata__2014_02_15/PANCAN12/20140215/gdac.broadinstitute.org_PANCAN12-FFPE.Merge_snp__genome_wide_snp_6__broad_mit_edu__Level_3__segmented_scna_minus_germline_cnv_hg19__seg.Level_3.2014021500.0.0.tar.gz'
+     0K .                                                    100%  738K=0,1s
+--2015-05-29 09:54:20--  http://gdac.broadinstitute.org/runs/stddata__2014_02_15/data/PANCAN12/20140215/gdac.broadinstitute.org_PANCAN12-FFPE.Merge_snp__genome_wide_snp_6__broad_mit_edu__Level_3__segmented_scna_minus_germline_cnv_hg19__seg.Level_3.2014021500.0.0.tar.gz.md5
+Saving to: `stddata__2014_02_15/PANCAN12/20140215/gdac.broadinstitute.org_PANCAN12-FFPE.Merge_snp__genome_wide_snp_6__broad_mit_edu__Level_3__segmented_scna_minus_germline_cnv_hg19__seg.Level_3.2014021500.0.0.tar.gz.md5'
+     0K                                                      100% 22,2M=0s
+--2015-05-29 09:54:20--  http://gdac.broadinstitute.org/runs/stddata__2014_02_15/data/PANCAN12/20140215/gdac.broadinstitute.org_PANCAN12.Merge_snp__genome_wide_snp_6__broad_mit_edu__Level_3__segmented_scna_minus_germline_cnv_hg19__seg.Level_3.2014021500.0.0.tar.gz
+Saving to: `stddata__2014_02_15/PANCAN12/20140215/gdac.broadinstitute.org_PANCAN12.Merge_snp__genome_wide_snp_6__broad_mit_edu__Level_3__segmented_scna_minus_germline_cnv_hg19__seg.Level_3.2014021500.0.0.tar.gz'
+     0K ........ ........ ........ ........ ........ ........ 13%  603K 34s
+  3072K ........ ........ ........ ........ ........ ........ 26%  582K 29s
+  6144K ........ ........ ........ ........ ........ ........ 39%  597K 24s
+  9216K ........ ........ ........ ........ ........ ........ 52%  577K 19s
+ 12288K ........ ........ ........ ........ ........ ........ 65%  615K 14s
+ 15360K ........ ........ ........ ........ ........ ........ 78%  594K 9s
+ 18432K ........ ........ ........ ........ ........ ........ 91%  582K 3s
+ 21504K ........ ........ ........ .......                   100%  584K=40s
+--2015-05-29 09:55:00--  http://gdac.broadinstitute.org/runs/stddata__2014_02_15/data/PANCAN12/20140215/gdac.broadinstitute.org_PANCAN12.Merge_snp__genome_wide_snp_6__broad_mit_edu__Level_3__segmented_scna_minus_germline_cnv_hg19__seg.Level_3.2014021500.0.0.tar.gz.md5
+Saving to: `stddata__2014_02_15/PANCAN12/20140215/gdac.broadinstitute.org_PANCAN12.Merge_snp__genome_wide_snp_6__broad_mit_edu__Level_3__segmented_scna_minus_germline_cnv_hg19__seg.Level_3.2014021500.0.0.tar.gz.md5'
+     0K                                                      100% 46,7M=0s
+FINISHED --2015-05-29 09:55:00--
+Total wall clock time: 47s
+Downloaded: 18 files, 24M in 42s (587 KB/s)
+
+
+Now performing post-processing on retrieved files ...
