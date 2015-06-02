@@ -2,10 +2,7 @@ args <- commandArgs()
 
 #Usage cat FocalAmplifications_fromPlasmaSeq.R | R --slave --args <segmented> <segments> <Type [Prostate | Breast]> <genes> 
 ratio<-read.table(args[4], header=TRUE);
-chrx_replace<-which(ratio$Chromosome=="23")
-ratio$Chromosome[chrx_replace]<-"X"
 segments<-data.frame(Chromosome=paste("chr",ratio$Chromosome,sep=""),Start=ratio$Start,End=ratio$End,Log2Ratio=ratio$Segment_Mean);
-levels(segments$Chromosome)<-c(levels(segments$Chromosome),"chrY")
 output_prefix<-args[5]
 type<-args[6]
 gene_count_cutoff<-strtoi(args[7])
